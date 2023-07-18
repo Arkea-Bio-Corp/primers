@@ -9,7 +9,7 @@ from .off_targets import off_targets
 
 
 LEN_MIN = 15  # min length of the annealing portion of primers
-LEN_MAX = 32  # max length of the annealing portion of primers, based on IDT guidelines
+LEN_MAX = 43  # max length of the annealing portion of primers, originally 32 but wanted to use longer due to low GC content
 
 
 class Scoring(NamedTuple):
